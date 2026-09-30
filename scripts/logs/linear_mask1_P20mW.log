@@ -1,0 +1,41 @@
+Mesh        = ../mesh/soi_mesh.msh
+Heater mask = 0b000001 (1)
+Potenza     = 20 mW per heater acceso
+CSV         = results.csv
+Output VTU  = no
+Initializing the mesh
+  Number of elements = 1923630
+-----------------------------------------------
+Initializing the finite element space
+  Degree                     = 1
+  DoFs per cell              = 4
+  Quadrature points per cell = 6
+  Quadrature points per face = 4
+-----------------------------------------------
+Initializing the DoF handler
+  Number of DoFs = 339222
+-----------------------------------------------
+Initializing the linear system
+-----------------------------------------------
+Heater volumes (integrati sulla mesh)
+  HEATER_0: 67.5000 um^3  [attivo]
+  HEATER_1: 67.5000 um^3
+  HEATER_2: 67.5000 um^3
+  HEATER_3: 67.5000 um^3
+  HEATER_4: 67.5000 um^3
+  HEATER_5: 67.5000 um^3
+  Potenza per heater attivo = 20.0000 mW
+===============================================
+Assembling the linear system
+Solving the linear system
+  32 CG iterations
+Postprocessing
+  Potenza iniettata = 20 mW
+  T_max             = 348.811 K (Delta T = 55.6613 K)
+  WG_0: int Delta T dz =       3773.3 K um,  <Delta T> =      15.0932 K
+  WG_1: int Delta T dz =      56.9316 K um,  <Delta T> =     0.227726 K
+  WG_2: int Delta T dz =      26.0043 K um,  <Delta T> =     0.104017 K
+  WG_3: int Delta T dz =      13.6201 K um,  <Delta T> =    0.0544805 K
+  WG_4: int Delta T dz =      7.29691 K um,  <Delta T> =    0.0291877 K
+  WG_5: int Delta T dz =      4.00983 K um,  <Delta T> =    0.0160393 K
+===============================================

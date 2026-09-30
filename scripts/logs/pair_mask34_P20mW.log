@@ -1,0 +1,42 @@
+Mesh        = ../mesh/soi_mesh.msh
+Heater mask = 0b100010 (34)
+Potenza     = 20 mW per heater acceso
+CSV         = results.csv
+Output VTU  = no
+Initializing the mesh
+  Number of elements = 1923630
+-----------------------------------------------
+Initializing the finite element space
+  Degree                     = 1
+  DoFs per cell              = 4
+  Quadrature points per cell = 6
+  Quadrature points per face = 4
+-----------------------------------------------
+Initializing the DoF handler
+  Number of DoFs = 339222
+-----------------------------------------------
+Initializing the linear system
+-----------------------------------------------
+Heater volumes (integrati sulla mesh)
+  HEATER_0: 67.5000 um^3
+  HEATER_1: 67.5000 um^3  [attivo]
+  HEATER_2: 67.5000 um^3
+  HEATER_3: 67.5000 um^3
+  HEATER_4: 67.5000 um^3
+  HEATER_5: 67.5000 um^3  [attivo]
+  Potenza per heater attivo = 20.0000 mW
+===============================================
+  Newton iteration  0 - ||R|| = 5.934989e-04 - 40 GMRES iterations - ||dT||_inf = 5.576805e+01 K
+  Newton iteration  1 - ||R|| = 5.388755e-05 - 38 GMRES iterations - ||dT||_inf = 1.386096e+00 K
+  Newton iteration  2 - ||R|| = 4.818504e-08 - 38 GMRES iterations - ||dT||_inf = 8.627260e-04 K
+  Newton iteration  3 - ||R|| = 2.523202e-14 < tolerance
+Postprocessing
+  Potenza iniettata = 4.000000e+01 mW
+  T_max             = 3.475311e+02 K (Delta T = 5.438109e+01 K)
+  WG_0: int Delta T dz = 6.097739e+01 K um,  <Delta T> = 2.439096e-01 K
+  WG_1: int Delta T dz = 3.736619e+03 K um,  <Delta T> = 1.494648e+01 K
+  WG_2: int Delta T dz = 6.927297e+01 K um,  <Delta T> = 2.770919e-01 K
+  WG_3: int Delta T dz = 5.136246e+01 K um,  <Delta T> = 2.054499e-01 K
+  WG_4: int Delta T dz = 7.030338e+01 K um,  <Delta T> = 2.812135e-01 K
+  WG_5: int Delta T dz = 3.739364e+03 K um,  <Delta T> = 1.495746e+01 K
+===============================================

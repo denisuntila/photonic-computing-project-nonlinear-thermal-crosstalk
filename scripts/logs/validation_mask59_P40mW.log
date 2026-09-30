@@ -1,0 +1,43 @@
+Mesh        = ../mesh/soi_mesh.msh
+Heater mask = 0b111011 (59)
+Potenza     = 40 mW per heater acceso
+CSV         = results.csv
+Output VTU  = no
+Initializing the mesh
+  Number of elements = 1923630
+-----------------------------------------------
+Initializing the finite element space
+  Degree                     = 1
+  DoFs per cell              = 4
+  Quadrature points per cell = 6
+  Quadrature points per face = 4
+-----------------------------------------------
+Initializing the DoF handler
+  Number of DoFs = 339222
+-----------------------------------------------
+Initializing the linear system
+-----------------------------------------------
+Heater volumes (integrati sulla mesh)
+  HEATER_0: 67.5000 um^3  [attivo]
+  HEATER_1: 67.5000 um^3  [attivo]
+  HEATER_2: 67.5000 um^3
+  HEATER_3: 67.5000 um^3  [attivo]
+  HEATER_4: 67.5000 um^3  [attivo]
+  HEATER_5: 67.5000 um^3  [attivo]
+  Potenza per heater attivo = 40.0000 mW
+===============================================
+  Newton iteration  0 - ||R|| = 1.881641e-03 - 41 GMRES iterations - ||dT||_inf = 1.130781e+02 K
+  Newton iteration  1 - ||R|| = 3.334518e-04 - 39 GMRES iterations - ||dT||_inf = 5.408691e+00 K
+  Newton iteration  2 - ||R|| = 1.104213e-06 - 39 GMRES iterations - ||dT||_inf = 1.257071e-02 K
+  Newton iteration  3 - ||R|| = 6.617319e-12 - 39 GMRES iterations - ||dT||_inf = 6.518138e-08 K
+  Newton iteration  4 - ||R|| = 1.484023e-14 < tolerance
+Postprocessing
+  Potenza iniettata = 2.000000e+02 mW
+  T_max             = 4.008086e+02 K (Delta T = 1.076586e+02 K)
+  WG_0: int Delta T dz = 7.541064e+03 K um,  <Delta T> = 3.016426e+01 K
+  WG_1: int Delta T dz = 7.578240e+03 K um,  <Delta T> = 3.031296e+01 K
+  WG_2: int Delta T dz = 3.529218e+02 K um,  <Delta T> = 1.411687e+00 K
+  WG_3: int Delta T dz = 7.613738e+03 K um,  <Delta T> = 3.045495e+01 K
+  WG_4: int Delta T dz = 7.633981e+03 K um,  <Delta T> = 3.053592e+01 K
+  WG_5: int Delta T dz = 7.566653e+03 K um,  <Delta T> = 3.026661e+01 K
+===============================================
